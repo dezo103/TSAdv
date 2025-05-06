@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "ts-node tuples/tuples.ts"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   }
 }
